@@ -1,0 +1,30 @@
+{
+    "settings": {
+        "AMFServicesConfigurations": {
+            "amfPointer": "0",
+            "timerValues": {
+                "useDefaultValues": "false",
+                "mrtValue": "30",
+                "idtValue": "30",
+                "t3512TimerUnit": "0",
+                "t3512TimerValue": "5"
+            },
+            "nfInstanceId": ""
+        },
+        "LogConfigurations": {
+            "DisplayLog": "true",
+            "LogLevel": "DEBUG"
+        },
+        "generalParameters": {
+            "DBSettings": {
+                "dbname": "{{tdbname}}",
+                "dbtype": "mongo",
+                "host": "{{tdbip}}",
+                "password": "{{tdbpas}}",
+                "port": "{{tdbport}}",
+                "username": "{{tdbuser}}"
+            },
+            "authJwtPublicKey": "true"
+        }
+    }
+}
